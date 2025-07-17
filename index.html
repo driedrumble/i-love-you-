@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For My Love, Shri Sakhi 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background: linear-gradient(to bottom right, #ffe4e1, #e6e6fa);
+      font-family: 'Roboto', sans-serif;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      position: relative;
+      overflow: hidden;
+    }
+    .page {
+      display: none;
+    }
+    .page.active {
+      display: block;
+      animation: fadeIn 1s ease, heartBurst 1s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes heartBurst {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    .nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .nav button {
+      background: #ffb6c1;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 1em;
+      border-radius: 10px;
+      cursor: pointer;
+      color: #4b0082;
+    }
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      color: #c71585;
+      font-size: 2.2em;
+      text-align: center;
+    }
+    p, li {
+      font-size: 1.1em;
+      color: #800000;
+      line-height: 1.6em;
+    }
+    .heartRain {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: -1;
+    }
+    .heart {
+      position: absolute;
+      font-size: 20px;
+      animation: fall 4s linear infinite;
+      color: #ff69b4;
+    }
+    @keyframes fall {
+      0% {
+        transform: translateY(-10%);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(100vh);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="https://files.catbox.moe/1c7t9z.mp3" type="audio/mpeg">
+  </audio>
+  <div class="heartRain" id="heartRain"></div>
+  <div class="container">
+    <div class="page active">
+      <h1>To My Forever Love 💌</h1>
+      <p>My dearest Anushka, my Shri Sakhi, my baby —</p>
+      <p>I love you more than words can ever express. You are not just a part of my life; you are the very meaning of it. Every beat of my heart whispers your name, and every breath I take carries the warmth of your love.</p>
+      <p>I promise to hold your hand through all storms, to laugh with you in joy, to be your comfort in sorrow, and to love you unconditionally — not just for today or tomorrow, but for the lifetime we are going to build together.</p>
+      <p>You’ve given me something magical: a love that feels like home. I am proud to call you mine, and even prouder to say I’ll never stop loving you. You're my queen, my partner, my best friend — and loving you is the most beautiful thing I’ve ever done.</p>
+      <p>Forever yours,<br><strong>Karnav 💖</strong></p>
+    </div>
+
+    <div class="page">
+      <h1>Our Journey Through Time 🕰️</h1>
+      <ul>
+        <li><strong>June 7:</strong> The day we met, the first hug, the spark that changed everything 💫</li>
+        <li><strong>First Call:</strong> Hours flew by like minutes — our voices made a melody 🎶</li>
+        <li><strong>First "I Love You":</strong> My heart was full. I meant every word. ❤️</li>
+        <li><strong>First Fight:</strong> Even in the storm, I chose you. Every single time. ☔</li>
+        <li><strong>Midnight Conversations:</strong> Our souls danced in the silence of the night 🌙</li>
+        <li><strong>Random Cuddles:</strong> Nothing feels warmer than your arms 💞</li>
+        <li><strong>The Kiss:</strong> The world paused. The stars aligned. It was only you and me. 💋</li>
+        <li><strong>Forever Promises:</strong> Sealed with tears, smiles, and endless love. 🤝</li>
+      </ul>
+      <p>This is just the beginning. Our timeline has forever to grow. 💑</p>
+    </div>
+
+    <div class="page">
+      <h1>A Poem for You 📝</h1>
+      <p>You are the song I never knew my soul was missing,<br>
+      A warmth I never knew I needed.<br>
+      In your eyes, I find galaxies,<br>
+      And in your hug, I find home.</p>
+      <p>Your love is poetry in motion,<br>
+      Your smile, my daily sunrise.<br>
+      You, my love, are everything<br>
+      I ever wished for and more.</p>
+      <p><em>— Yours forever, Karnav 💕</em></p>
+    </div>
+
+    <div class="page">
+      <h1>100 Reasons Why I Love You 💘</h1>
+      <ol>
+        <li>Your smile lights up my entire world.</li>
+  <li>The way your eyes sparkle when you’re happy.</li>
+  <li>You always understand me, even when I don’t speak.</li>
+  <li>Your hugs are the safest place I know.</li>
+  <li>Your laugh makes my heart race.</li>
+  <li>The way you say my name melts me every time.</li>
+  <li>You make me want to be a better person every day.</li>
+  <li>Your soft little "I love you"s in the middle of nowhere.</li>
+  <li>The way you cuddle into me like I’m your home.</li>
+  <li>You’re my peace in this chaotic world.</li>
+  <li>Your hands fit perfectly in mine.</li>
+  <li>The way you gently care for everything around you.</li>
+  <li>Even your anger makes you adorable.</li>
+  <li>The way your nose crinkles when you smile.</li>
+  <li>Your voice is my favorite sound.</li>
+  <li>You give the best forehead kisses.</li>
+  <li>You believe in me, even when I doubt myself.</li>
+  <li>The way you always know what I’m thinking.</li>
+  <li>Your love feels like home.</li>
+  <li>You call me “yours” and mean it.</li>
+  <li>You’re strong and soft, both at once.</li>
+  <li>You listen with your heart.</li>
+  <li>You cry during emotional movies.</li>
+  <li>You always know how to cheer me up.</li>
+  <li>Your morning face is the cutest thing.</li>
+  <li>You love me even when I’m annoying.</li>
+  <li>You accept all my flaws without judgment.</li>
+  <li>You make ordinary days feel special.</li>
+  <li>Your touch heals my sadness.</li>
+  <li>You know my silence means more than my words.</li>
+  <li>We laugh like best friends.</li>
+  <li>You’re my comfort zone and my adventure.</li>
+  <li>You're the only person I want to grow old with.</li>
+  <li>Your sleepy voice makes me melt.</li>
+  <li>Your support is my strength.</li>
+  <li>You trust me completely.</li>
+  <li>Your tiny jealousy moments make me feel loved.</li>
+  <li>You get shy and it’s the cutest thing ever.</li>
+  <li>You never give up on us.</li>
+  <li>You’re my biggest fan and softest critic.</li>
+  <li>You always look beautiful, even when you say you don’t.</li>
+  <li>You remember little things I said months ago.</li>
+  <li>You randomly send me “I miss you” texts.</li>
+  <li>Your sleepy cuddles are heaven on Earth.</li>
+  <li>You care about my dreams as much as I do.</li>
+  <li>You giggle when I tickle you.</li>
+  <li>Our late night calls are my favorite escape.</li>
+  <li>You make me believe in forever.</li>
+  <li>You're my safe place after a hard day.</li>
+  <li>You let me be the softest version of myself.</li>
+  <li>Every moment with you feels like magic.</li>
+  <li>You’re my muse, my melody, my miracle.</li>
+  <li>Your heartbeat calms mine.</li>
+  <li>Your love feels like poetry written by the universe.</li>
+  <li>You're beautiful without even trying.</li>
+  <li>You always try to make things better.</li>
+  <li>Your random kisses on my forehead make my day.</li>
+  <li>You give me butterflies, every single time.</li>
+  <li>When I’m with you, nothing else matters.</li>
+  <li>You laugh at my lame jokes.</li>
+  <li>You make rainy days feel romantic.</li>
+  <li>Your love language is everything I ever craved.</li>
+  <li>You're the best chapter in my life story.</li>
+  <li>I could look at you for hours and never get bored.</li>
+  <li>You calm my storms with a single word.</li>
+  <li>You never let me feel alone.</li>
+  <li>You make me feel like the most loved person alive.</li>
+  <li>Your love is louder than my fears.</li>
+  <li>You are my soulmate in every sense.</li>
+  <li>You trust me with your whole heart.</li>
+  <li>Your imperfections are what make you perfect for me.</li>
+  <li>You make me want to live a thousand lives with you.</li>
+  <li>You’re the softest part of my hardest days.</li>
+  <li>You’re always on my mind — even when I’m asleep.</li>
+  <li>You respect my thoughts and emotions.</li>
+  <li>With you, I can just be me — raw, real, and loved.</li>
+  <li>You dance even when there’s no music.</li>
+  <li>Your tiny pout is everything.</li>
+  <li>Your patience with me means the world.</li>
+  <li>You make me fall in love with life again.</li>
+  <li>Your name feels like a blessing on my lips.</li>
+  <li>Every memory with you is golden.</li>
+  <li>You always choose “us” even in the hardest moments.</li>
+  <li>You are the answer to every prayer I’ve ever whispered.</li>
+  <li>You look at me like I’m the only one that exists.</li>
+  <li>Your presence turns ordinary places into paradise.</li>
+  <li>You make me believe in destiny.</li>
+  <li>You're my sweetest addiction.</li>
+  <li>You hold my heart like it’s the most fragile thing.</li>
+  <li>Your soul is even more beautiful than your face.</li>
+  <li>I love the way you love me.</li>
+  <li>I never get tired of falling for you — again and again.</li>
+  <li>You bring meaning to everything I do.</li>
+  <li>You’ve made me believe in the beauty of forever.</li>
+  <li>You are, simply put, my reason for everything.</li>
+  <li>Because loving you is the best feeling in this entire universe.</li>
+  <li>And I’d choose you — in every lifetime, in every universe.</li>
+  <li>Because you, Anu, are my everything.</li><!-- 100 romantic reasons inserted -->
+        <!-- Content too large to include here, but inserted in the actual canvas -->
+      </ol>
+    </div>
+
+    <div class="page">
+      <h1>The Day We Met ❤️</h1>
+      <p>Baby, I remember the day and the night we met... I was called to your house. The moment I stepped in, I saw the word "beauty" sitting on the sofa. I fell in love with you all over again and I couldn’t wait to hug you.</p>
+      <p>I sat beside you and my entire body was shaking. My heart was pounding so fast. I couldn’t think of anything, so I let my arm go around you... and oh boy — the moment you had your head on me and took that deep breath while cuddling in gently — that moment was so warm and special to me.</p>
+      <p>I remember every single detail and it makes me smile to this day. I don’t know how to say or express something openly, but I am so deeply in love with you.</p>
+      <p>The moment I turned your head towards me and gave you a soft kiss — it was like the universe collided. The other voices stopped and there was calmness. The moment I laid my head on your chest — that very moment I felt like a literal baby, a baby who is safe in her mother's hands.</p>
+      <p>I am dedicating this to you — and the amount of respect I have for you is insanely high, baby. You're my EVERYTHING.</p>
+    </div>
+
+    <div class="page">
+      <h1>Until Next Time... 💭</h1>
+      <p>I hope you read every single word I've typed here for you... and I may be stupid sometimes, but no man in this world will love you like I do.</p>
+      <p>I love you, my baby... I love you forever. &lt;3</p>
+      <p>Bye bye 👋</p>
+    </div>
+
+    <div class="nav">
+      <button onclick="prevPage()">Previous</button>
+      <button onclick="nextPage()">Next</button>
+    </div>
+  </div>
+
+  <script>
+    const pages = document.querySelectorAll('.page');
+    let currentPage = 0;
+
+    function showPage(index) {
+      pages[currentPage].classList.remove('active');
+      currentPage = index;
+      if (currentPage < 0) currentPage = 0;
+      if (currentPage >= pages.length) currentPage = pages.length - 1;
+      pages[currentPage].classList.add('active');
+    }
+
+    function nextPage() {
+      if (currentPage < pages.length - 1) showPage(currentPage + 1);
+    }
+
+    function prevPage() {
+      if (currentPage > 0) showPage(currentPage - 1);
+    }
+
+    const heartRain = document.getElementById('heartRain');
+    setInterval(() => {
+      const heart = document.createElement('div');
+      heart.classList.add('heart');
+      heart.textContent = '❤️';
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.fontSize = (Math.random() * 10 + 20) + 'px';
+      heartRain.appendChild(heart);
+      setTimeout(() => heart.remove(), 4000);
+    }, 300);
+  </script>
+</body>
+</html>
